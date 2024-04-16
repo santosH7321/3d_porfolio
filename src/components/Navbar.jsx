@@ -25,8 +25,8 @@ const Navbar = () => {
             alt="logo"
             className="w-9 h-9 object-contain"
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
-            Santosh <span className="sm:block hidden">Kumar</span>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            Santosh &nbsp; <span className="sm:block hidden">Kumar</span>
           </p>
         </Link>
 
@@ -49,7 +49,7 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt="menu"
-            className="w-[28px] object-contain cursor-pointer"
+            className="w-[28px] object-contain cursor-pointer flex"
             onClick={() => setToggle(!toggle)}
           />
 
